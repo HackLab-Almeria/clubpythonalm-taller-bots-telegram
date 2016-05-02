@@ -1,0 +1,3 @@
+1.- TOKEN: Ese valor nos lo proporciona el BotFather al crear nuestro bot. Es un identificativo único del bot
+2.- ChatID: imprescindible para comunicar con el canal del Bot.
+3.- Ejecutar el programa 00-ChatID.py para saber el nuestro chatID para comunicar con el bot 

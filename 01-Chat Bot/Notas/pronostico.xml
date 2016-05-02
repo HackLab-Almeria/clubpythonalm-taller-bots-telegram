@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<pronostico_horas>
+	<medidas estacion="El Aeropuerto">
+		<fecha>2016-4-25</fecha>
+		<hora_datos>22:00</hora_datos>
+		<temperatura>17</temperatura>
+		<cielo>Despejado</cielo>
+		<humedad>68</humedad>
+		<presion>1015</presion>
+		<viento>11</viento>
+		<dir_viento>Nordeste</dir_viento>
+	</estacion>
+</pronostico_horas>
