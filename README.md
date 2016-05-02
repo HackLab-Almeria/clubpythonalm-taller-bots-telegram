@@ -26,7 +26,7 @@ Días antes de la presentación del Taller de Telegram del Club Python Almería 
 #AUTORES Y CONTACTO
 
 - Autor: Juan Antonio García Repiso (@Computilo)
-- Colabora: Marcos Manuel Ortega (@Indavelopers, coordinador del Club Python Almería)
+- Colabora: Marcos Manuel Ortega ([Indavelopers](https://github.com/Indavelopers), coordinador del Club Python Almería)
 
 #TO-DOS
 
