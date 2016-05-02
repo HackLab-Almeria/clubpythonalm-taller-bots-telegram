@@ -1,18 +1,18 @@
 #TALLER DE BOTS CON API DE TELEGRAM
 
-#VERSIÓN
+#VERSIï¿½N
 1.0
 
-#DESCRIPCIÓN
-Código de ejemplos y ejercicios prácticos para crear bots conversacionales para la plataforma de mensajería Telegram según su [API de bots](https://core.telegram.org/bots).
+#DESCRIPCIï¿½N
+Repositorio de ejemplos y ejercicios prï¿½cticos para crear bots conversacionales para la plataforma de mensajerï¿½a Telegram segï¿½n su [API de bots](https://core.telegram.org/bots).
 
 #OBJETIVO
-Este repositorio está pensado para servir como base de práctica y aprendizaje para aquellas personas interesadas en crear bots conversacionales para Telegram.
+Este repositorio estï¿½ pensado para servir como base de prï¿½ctica y aprendizaje para aquellas personas interesadas en crear bots conversacionales para Telegram.
 
-#CLUB PYTHON ALMERÍA
-Éste repositorio está mantenido por los miembros del Club Python Almería, una comunidad profesional de usuarios e interesados en el lenguaje de programación Python.
+#CLUB PYTHON ALMERï¿½A
+ï¿½ste repositorio estï¿½ mantenido por los miembros del Club Python Almerï¿½a, una comunidad profesional de usuarios e interesados en el lenguaje de programaciï¿½n Python.
 
-Club Python Almería es miembro de la comunidad [Hacklab Almería](https://www.hacklabalmeria.net).
+Club Python Almerï¿½a es miembro de la comunidad [Hacklab Almerï¿½a](https://www.hacklabalmeria.net).
 
 #REQUISITOS
 
@@ -20,16 +20,16 @@ Club Python Almería es miembro de la comunidad [Hacklab Almería](https://www.hac
 - PyTelegramBotAPI: v1.4.2+
 - FeedParser
 
-#INFORMACIÓN ADICIONAL
-Días antes de la presentación del Taller de Telegram del Club Python Almería (28/4/16), Telegram presentó la versión 2.0.3 de su API, que presenta algunas incompatibilidades con algunos ejercicios y Python 3.5, como por ejemplo "time out"s en el envío de archivos de audio o video sin devolver excepciones. Del mismo modo, los teclados virtuales se programan de manera distinta en la versión 2.0+.
+#INFORMACIï¿½N ADICIONAL
+Dï¿½as antes de la presentaciï¿½n del Taller de Telegram del Club Python Almerï¿½a (28/4/16), Telegram presentï¿½ la versiï¿½n 2.0.3 de su API, que presenta algunas incompatibilidades con algunos ejercicios y Python 3.5, como por ejemplo "time out"s en el envï¿½o de archivos de audio o video sin devolver excepciones. Del mismo modo, los teclados virtuales se programan de manera distinta en la versiï¿½n 2.0+.
 
 #AUTORES Y CONTACTO
 
-- Autor: Juan Antonio García Repiso (@Computilo)
-- Colabora: Marcos Manuel Ortega (@Indavelopers, coordinador del Club Python Almería)
+- Autor: Juan Antonio Garcï¿½a Repiso (@Computilo)
+- Colabora: Marcos Manuel Ortega (@Indavelopers, coordinador del Club Python Almerï¿½a)
 
 #TO-DOS
 
 
 #LICENCIA
-La información sobre la licencia de este repositorio se puede encontrar en el archivo LICENSE.md
+La informaciï¿½n sobre la licencia de este repositorio se puede encontrar en el archivo LICENSE.md
