@@ -17,9 +17,11 @@ chatID=0 # <- El número obtenido es válido para todos los ejercicios
 try:
 	info_api=telegram.get_me() # Comprobar que el bot está activo
 	print ("Conectando con el Bot de Telegram... [OK]")
+	'Algunos de los datos extraidos del API'
 	print ("ID: ",info_api.id)
 	print ("Nombre del bot: ",info_api.first_name)	
 	print("Nombre de usuario: ",info_api.username)
+	# print (info_api) # Muestra todos los datos proporcionados por el API
 	sys.exit(0)
 except telebot.apihelper.ApiException as e:
 	print ("Conectando con Bot de Telegram -> ERROR")
