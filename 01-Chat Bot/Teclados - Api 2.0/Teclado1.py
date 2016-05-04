@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """ Ejemplo: Teclado Virtual 1 (Api 2.0)
-	Libreria: pyTelegramBotAPI 1.4.2
+	Libreria: pyTelegramBotAPI 2.0 [ok]
 	Python: 3.5.1
 """
 
