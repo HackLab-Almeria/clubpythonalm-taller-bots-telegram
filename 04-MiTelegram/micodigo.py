@@ -10,8 +10,6 @@
 
 from mitelegram import *
 
-yo="Pepito -> "
-
 mi_codigo="Este mensaje se leerá en el bot"
 
 telegram.send_message(chatID,mi_codigo)
