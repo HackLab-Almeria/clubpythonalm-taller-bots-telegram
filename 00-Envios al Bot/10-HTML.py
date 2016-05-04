@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-""" Ejemplo: 10 - Enviar mensajes con HTML
-   	Libreria: pyTelegramBotAPI 1.4.2
+""" Ejemplo: 10 - Enviar mensajes con HTML y MarkDown
+   	Libreria: pyTelegramBotAPI 1.4.2 [ok]
+   	Libreria: pyTelegramBotAPI 2.0 [ok]
 	Python: 3.5.1
 """
 import telebot
@@ -22,7 +23,8 @@ try:
 	texto_html="<a href='https://core.telegram.org'>Telegram </a> y su <b>API</b>"
 	html_elpais="<a href='http://elpais.com'>El Pais</a>"
 	html_abc="<a href='http://www.abc.es/'>ABC</a>"
-	#Enviar mensaje de con HTML
+	# Enviar mensaje de con HTML
+	# La versión del Api actual, 2.0.5 no soporta todas las etiquetas de un HTML estandar
 	"Se incluyen parámetros especiales: 'parser_mode' para enviar código HTML"
 	telegram.send_message(parse_mode='HTML', chat_id=chatID, text='<b>Negrita</b> <i> cursiva </i>')
 
@@ -43,7 +45,7 @@ try:
 	sys.exit(0)
 except telebot.apihelper.ApiException as e:
 	print ("Conectando con Bot de Telegram -> ERROR")
-	#print (e)
+	print (e) # Muestra el error de fallo de conexión del bot
 	sys.exit(1)
 
 
