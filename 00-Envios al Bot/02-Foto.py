@@ -19,12 +19,12 @@ try:
 	print ("Conectando con el Bot de Telegram... [OK]")
 	saludo="Enviado una imagen.." # Imágen a enviar...
 	telegram.send_message(chatID, saludo)
-	imagen = open('.//iconos//03.png', 'rb')
+	imagen = open('.//iconos//03.png', 'rb') # Podría producir excepción si no se encuentra el archivo
 	telegram.send_photo(chatID, imagen)
 	sys.exit(0)
-except Exception as e:
+except Exception as e: # Se recogen cualquier excepción de arriba
 	print ("Conectando con Bot de Telegram -> ERROR")
-	print (e) # la excepción genérica saltará para cualquier error en el bloque del try
+	print (e) # mostrará el mensaje para cualquier error en el bloque del try
 	sys.exit(1)
 
 
