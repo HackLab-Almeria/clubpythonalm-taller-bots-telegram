@@ -4,7 +4,8 @@
 1.0
 
 #DESCRIPCIÓN
-Repositorio de ejemplos y ejercicios prácticos para crear bots conversacionales para la plataforma de mensajería Telegram según su [API de bots](https://core.telegram.org/bots).
+Repositorio de ejemplos y ejercicios prácticos para crear bots conversacionales para la plataforma de mensajería Telegram según su [API de bots](https://core.telegram.org/bots). 
+Notas sobre cambios de pyTelegramBotAPI en[ PyPI] (https://libraries.io/pypi/pyTelegramBotAPI)
 
 #OBJETIVO
 Este repositorio está pensado para servir como base de práctica y aprendizaje para aquellas personas interesadas en crear bots conversacionales para Telegram.

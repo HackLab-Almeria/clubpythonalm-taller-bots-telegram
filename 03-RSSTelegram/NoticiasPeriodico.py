@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """ Ejemplo: Leer Noticias RSS en Telegram (I)
-	Libreria: pyTelegramBotAPI 1.4.2
+	Libreria: pyTelegramBotAPI 1.4.2 [ok]
+	Libreria: pyTelegramBotAPI 2.0 [ok]
 	Python: 3.5.1
 """
 
@@ -19,7 +20,7 @@ try:
 except Exception:
 		print ("Ejecutar en Python 3, mejor")
 
-# Leer las ˙ltimas noticias del Ideal AlmerÌa
+# Leer las √∫ltimas noticias del Ideal Almer√≠a
 url =  "http://www.ideal.es/almeria/rss/atom?seccion=ultima-hora" 
 rss = feedparser.parse(url)
 
@@ -29,8 +30,8 @@ servicio="-> Servicio del Bot de Telegram"
 inicio_servicio="-- Iniciando..."
 print (inicio_servicio)
 print (- Presionar Ctrl+C para detener el servicio....")
-TOKEN='AQUÕ EL NUMERO DE VUESTRO TOKEN entre comillas'
-telegram = telebot.TeleBot(TOKEN) # Combinamos la declaraciÛn del Token con la funciÛn de la API
+TOKEN='AQU√ç EL NUMERO DE VUESTRO TOKEN entre comillas'
+telegram = telebot.TeleBot(TOKEN) # Combinamos la declaraci√≥n del Token con la funci√≥n de la API
 chatID=0
 
 def Control_C(signal, frame):
@@ -68,7 +69,7 @@ def listener(messages):
 
 
 try:
-	info_api=telegram.get_me() # Comprobar si el bot est· disponible
+	info_api=telegram.get_me() # Comprobar si el bot est√° disponible
 	print ("- Conectando con el Bot de Telegram... [OK]")
 	telegram.set_update_listener(listener) # Actualizamos el escuchador (listener)
 except Exception as e:

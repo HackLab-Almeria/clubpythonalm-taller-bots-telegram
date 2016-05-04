@@ -2,7 +2,11 @@
 # -*- coding: utf-8 -*-
 """ Ejemplo: 01  - Saludando al bot
 	Libreria: pyTelegramBotAPI 1.4.2 [ok]
+<<<<<<< HEAD
 	Libreria: pyTelegramBotAPI 2.0.4 [ok]
+=======
+	Libreria: pyTelegramBotAPI 2.0 [ok]
+>>>>>>> 1db8627731a2e23693cd9fe38a455956b783c0cd
 	Python: 3.5.1
 """
 import telebot

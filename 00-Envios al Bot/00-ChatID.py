@@ -2,8 +2,13 @@
 # -*- coding: iso-8859-1 -*-
 """ 
 	Ejemplo: Obtener el Chat ID
+<<<<<<< HEAD
    	Libreria: pyTelegramBotAPI 1.4.2 [ok]
 	Libreria: pyTelegramBotAPI 2.0.4 [ok]
+=======
+   	Libreria: pyTelegramBotAPI 1.4.2
+   	Libreria: pyTelegramBotAPI 2.0.4
+>>>>>>> 1db8627731a2e23693cd9fe38a455956b783c0cd
 	Python: 3.5.1
 """
 
@@ -12,8 +17,8 @@ import sys
 
 servicio="- Servicio del Bot de Telegram ... "
 
-TOKEN='AQUÍ EL NUMERO DE VUESTRO TOKEN entre comillas'
-telegram = telebot.TeleBot(TOKEN) # Combinamos la declaración del Token con la función de la API
+TOKEN='AQUÃ EL NUMERO DE VUESTRO TOKEN entre comillas'
+telegram = telebot.TeleBot(TOKEN) # Combinamos la declaraciÃ³n del Token con la funciÃ³n de la API
 
 def listener(mensaje_telegram):
 	for mensaje in mensaje_telegram:
@@ -23,7 +28,7 @@ def listener(mensaje_telegram):
 	sys.exit(0)
 
 try:
-	info_api=telegram.get_me() # Comprobar si el bot está disponible
+	info_api=telegram.get_me() # Comprobar si el bot estÃ¡ disponible
 	print ("- Conectando con el Bot de Telegram... [OK]")
 	print ("- Ctrl + C para detener el Bot -") # Para salir desde consola
 	print ("- Inicie su bot...")

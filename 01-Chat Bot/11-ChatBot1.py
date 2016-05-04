@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 """ Ejemplo: 11 - Comunicando con el bot (I)
     Nombre del bot de Telegram: Taller_Python_Almeria
-	Librería: pyTelegramBotAPI: 1.4.2
+	Librería: pyTelegramBotAPI: 1.4.2 [ok]
+	Librería: pyTelegramBotAPI: 2.0 [ok]
 	Python: 3.5.1
 """
 import telebot
