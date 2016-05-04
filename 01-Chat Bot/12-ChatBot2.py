@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """ Ejemplo: 12 - Comunicando con el bot (II)
-	Librería: pyTelegramBotAPI: 1.4.2
+	Librería: pyTelegramBotAPI: 1.4.2 [ok]
+	Librería: pyTelegramBotAPI: 2.0 [ok]
 	Python: 3.5.1
 """
 import telebot
