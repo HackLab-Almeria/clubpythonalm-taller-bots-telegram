@@ -4,20 +4,20 @@
 import telebot
 import sys
 
-TOKEN = 'AQUÕ EL NUMERO DE VUESTRO TOKEN entre comillas' 
-telegram = telebot.TeleBot(TOKEN) # Combinamos la declaraciÛn del Token con la funciÛn de la API
-chatID=0000 # Cuando ya  teng·is vuestro chatID. Siempre AQUœ
+TOKEN = 'AQU√ç EL NUMERO DE VUESTRO TOKEN entre comillas' 
+telegram = telebot.TeleBot(TOKEN) # Combinamos la declaraci√≥n del Token con la funci√≥n de la API
+chatID=0000 # Cuando ya  teng√°is vuestro chatID. Siempre AQU√è
 nombre_bot="Club_Python_Almeria"
 nombre_usuario="Club_Python_Almeria_bot"
-yo=" <- Tu Propia Alias -> \n" # Por si quieres usar un alias distinto al de Telegram
+yo=" <- Tu Propia Alias -> " # Por si quieres usar un alias distinto al de Telegram
 
 def alBot (mensaje):
 	telegram.send_message(chatID,mensaje)
 	
 try:
-	api_info=telegram.get_me() # Comprobar el API. Devuelve un objeto
+	api_info=telegram.get_me() # Comprobar el API
 except:
-	print ("No se puede conectar al Club...")
+	print ("No se puede conectar con el Club...")
 	sys.exit(1)
 
 
