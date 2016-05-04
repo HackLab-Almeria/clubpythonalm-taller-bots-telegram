@@ -2,7 +2,8 @@
 # -*- coding: iso-8859-1 -*-
 """ 
 	Ejemplo: Obtener el Chat ID
-   	Libreria: pyTelegramBotAPI 1.4.2
+   	Libreria: pyTelegramBotAPI 1.4.2 [ok]
+	Libreria: pyTelegramBotAPI 2.0.4 [ok]
 	Python: 3.5.1
 """
 
