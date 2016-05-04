@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8-*-
 """
-	Fichero para importar todos los datos de bot necesarios
+	Fichero para importar todos los datos del bot
 	Libreria: pyTelegramBotAPI 1.4.2 [ok]
 	Libreria: pyTelegramBotAPI 2.0 [ok]
 	Python: 3.5.1
