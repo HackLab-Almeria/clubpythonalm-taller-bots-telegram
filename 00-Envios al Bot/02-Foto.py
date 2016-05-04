@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """ Ejemplo: 02 - Evnviar foto al bot
-   	Libreria: pyTelegramBotAPI 1.4.2
+   	Libreria: pyTelegramBotAPI 1.4.2 [ok]
+   	Libreria: pyTelegramBotAPI 2.0 [ok]
 	Python: 3.5.1
 """
 
@@ -16,14 +17,14 @@ chatID=0 # <- Aquí vuestro chatID
 try:
 	telegram.get_me() # Comprobar que el bot está activo
 	print ("Conectando con el Bot de Telegram... [OK]")
-	saludo="Enviado una imagen.." # Mensaje a enviar...
+	saludo="Enviado una imagen.." # Imágen a enviar...
 	telegram.send_message(chatID, saludo)
 	imagen = open('.//iconos//03.png', 'rb')
 	telegram.send_photo(chatID, imagen)
 	sys.exit(0)
 except Exception as e:
 	print ("Conectando con Bot de Telegram -> ERROR")
-	#print (e)
+	print (e) # la excepción genérica saltará para cualquier error en el bloque del try
 	sys.exit(1)
 
 
