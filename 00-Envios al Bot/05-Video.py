@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """ Ejemplo: 05 - Enviar un video
-    Libreria: pyTelegramBotAPI 1.4.2
-	Python: 3.5.1
+    Libreria: pyTelegramBotAPI 1.4.2 [ok]
+    Libreria: pyTelegramBotAPI 2.0 [ok]
+    Python: 3.5.1
 """
 
 import telebot
@@ -23,7 +24,7 @@ try:
 	sys.exit(0)
 except Exception as e:
 	print ("Conectando con Bot de Telegram -> ERROR")
-	#print (e)
+	print (e) # Muestra mensaje de cualquier error del bloque try
 	sys.exit(1)
 
 
