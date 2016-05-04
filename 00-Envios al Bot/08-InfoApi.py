@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """ Ejemplo: 08 - Conociendo el API
- 	Libreria: pyTelegramBotAPI 1.4.2
+ 	Libreria: pyTelegramBotAPI 1.4.2 [ok]
+ 	Libreria: pyTelegramBotAPI 2.0 [ok]
 	Python: 3.5.1
 """
 
@@ -11,7 +12,7 @@ import sys
 TOKEN='AQUÍ EL NUMERO DE VUESTRO TOKEN' # Identificador Erroneo para el ejercicio
 telegram = telebot.TeleBot(TOKEN) # Combinamos la declaración del Token con la función de la API
 'El chatID se obtiene ejecutando el ejercicio 00-ChatID.py'
-chatID=000 # <- El número obtenido es válido para todos los ejercicios
+chatID=0 # <- El número obtenido es válido para todos los ejercicios
 
 try:
 	info_api=telegram.get_me() # Comprobar que el bot está activo
@@ -22,6 +23,6 @@ try:
 	sys.exit(0)
 except telebot.apihelper.ApiException as e:
 	print ("Conectando con Bot de Telegram -> ERROR")
-	#print (e)
+	print (e) # Muestra información del error de excepción
 	sys.exit(1)
 
