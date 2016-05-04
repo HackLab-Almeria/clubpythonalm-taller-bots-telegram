@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: iso-8859-1 -*-
-""" Ejemplo: Leer Noticias RSS en Telegram (III)
+""" Ejemplo: Leer Noticias RSS en Telegram (II)
 	Libreria: pyTelegramBotAPI 1.4.2 [ok]
 	Libreria: pyTelegramBotAPI 2.0 [ok]
 	Python: 3.5.1
