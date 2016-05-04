@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """ Ejemplo: 04 - Enviar Audio Mp3
-   	Libreria: pyTelegramBotAPI 1.4.2
+   	Libreria: pyTelegramBotAPI 1.4.2 [ok]
+   	Librería: pyTelegramBotAPI 2.0 [ok]
 	Python: 3.5.1
 """
 import telebot
@@ -22,7 +23,7 @@ try:
 	sys.exit(0)
 except Exception as e:
 	print ("Conectando con Bot de Telegram -> ERROR")
-	#print (e)
+	print (e) # Muestra mensaje que se produzca en el bloque try
 	sys.exit(1)
 
 
