@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: iso-8859-1 -*-
 """ Ejemplo: Leer Noticias RSS en Telegram (III)
-	Libreria: pyTelegramBotAPI 1.4.2
+	Libreria: pyTelegramBotAPI 1.4.2 [ok]
+	Libreria: pyTelegramBotAPI 2.0 [ok]
 	Python: 3.5.1
 """
 
@@ -17,8 +18,8 @@ rss = feedparser.parse(url)
 servicio="Servicio del Bot de Telegram"
 inicio_servicio="Iniciando..."+servicio
 print (inicio_servicio),
-TOKEN = 'AQUÕ EL NUMERO DE VUESTRO TOKEN' #Ponemos nuestro TOKEN generado con el @BotFather
-telegram = telebot.TeleBot(TOKEN) # Combinamos la declaraciÛn del Token con la funciÛn de la API
+TOKEN = 'AQU√ç EL NUMERO DE VUESTRO TOKEN' #Ponemos nuestro TOKEN generado con el @BotFather
+telegram = telebot.TeleBot(TOKEN) # Combinamos la declaraci√≥n del Token con la funci√≥n de la API
 
 
 def listener(messages):
